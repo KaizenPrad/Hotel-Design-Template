@@ -1,0 +1,81 @@
+import { pexels, unsplash } from "../utils/images";
+
+export const hotel = {
+  name: "Luxe Haven Hotel",
+  shortName: "Luxe Haven",
+  address: "200 East 50th Street",
+  city: "New York, NY 10022",
+  phone: "+1 (212) 555-1234",
+  phoneHref: "tel:+12125551234",
+  email: "stay@luxehavenhotel.com",
+  checkIn: "3:00 PM",
+  checkOut: "12:00 PM",
+  directionsUrl:
+    "https://www.google.com/maps/search/?api=1&query=200+East+50th+Street+New+York+NY+10022",
+  social: [
+    { label: "Instagram", href: "https://instagram.com" },
+    { label: "Facebook", href: "https://facebook.com" },
+    { label: "Pinterest", href: "https://pinterest.com" },
+    { label: "X", href: "https://x.com" },
+  ],
+};
+
+export const navigation = [
+  { label: "Rooms", to: "/rooms" },
+  { label: "Dining", to: "/dining" },
+  { label: "Spa", to: "/spa" },
+  { label: "Experiences", to: "/experiences" },
+];
+
+export const roomTypes = [
+  { value: "all", label: "All accommodations" },
+  { value: "rooms", label: "Rooms" },
+  { value: "suites", label: "Suites" },
+];
+
+export const images = {
+  hero: unsplash("photo-1618773928121-c32242e63f39", 2200),
+  booking: unsplash("photo-1776763018970-9fdf66bd4666", 1800),
+  lobby: unsplash("photo-1775866914943-ba1415a35afc", 1600),
+  lobbyAlt: unsplash("photo-1775447665921-87fb172bf115", 1600),
+  staircase: unsplash("photo-1723516908282-b3c795e9416a", 1600),
+  corridor: unsplash("photo-1752445715873-70bf16ad8df0", 1400),
+  bathroom: unsplash("photo-1704731529088-19083feb5b43", 1400),
+  bedroomView: unsplash("photo-1644688718955-8e4bfba01c08", 1800),
+  bedroomViewAlt: unsplash("photo-1666585608237-f58aa7141641", 1400),
+  exterior: unsplash("photo-1761838338014-31de4db47450", 1400),
+  roomCity: unsplash("photo-1771775529138-a7a20ba7e032", 1800),
+  restaurant: unsplash("photo-1517248135467-4c7edcad34c4", 1800),
+  restaurantPortrait: unsplash("photo-1578474846511-04ba529f0b88", 1200),
+  diningRoom: unsplash("photo-1673663096530-f34ca2255ff1", 1600),
+  diningCandle: unsplash("photo-1646473315764-c6cd47fe74c3", 1200),
+  plating: unsplash("photo-1750943082231-0d84cfabc4dd", 1200),
+  chef: unsplash("photo-1750943082452-c714763f73b2", 1200),
+  champagne: unsplash("photo-1613477581402-306fa9dc6b95", 1200),
+  cocktail: unsplash("photo-1615887026505-00283cf0ff83", 1200),
+  rooftop: unsplash("photo-1493246318656-5bfd4cfb29b8", 1600),
+  rooftopEvening: unsplash("photo-1664353655151-9d94a9170eb0", 1800),
+  skyline: unsplash("photo-1657684062990-9126b079df6d", 1800),
+  taxi: unsplash("photo-1589127383386-270465a13dea", 1400),
+  centralPark: unsplash("photo-1570158370687-cf5de9248417", 1600),
+  broadway: unsplash("photo-1615414047026-802692414b79", 1600),
+  theater: unsplash("photo-1562329265-95a6d7a83440", 1400),
+  museum: unsplash("photo-1764271212223-ce7abdc8012b", 1400),
+  museumAlt: unsplash("photo-1753838303423-d0cbfe0fca3a", 1400),
+  boutique: unsplash("photo-1769107805511-0bb7075fca27", 1400),
+  ballroom: unsplash("photo-1780593116478-c46838f86523", 1800),
+  privateDining: unsplash("photo-1637404893433-3360bf766561", 1400),
+  diningWarm: unsplash("photo-1674168461837-9e2be6a263da", 1400),
+  spaInterior: pexels("7031713", 1600),
+  spaPool: pexels("35495081", 1600),
+  massage: pexels("7233271", 1400),
+  massageAlt: pexels("19641817", 1600),
+  facial: pexels("3865570", 1400),
+  bodyRitual: pexels("8312850", 1400),
+  couples: pexels("19695966", 1400),
+  lobbyChandelier: pexels("16253100", 1800),
+  reception: pexels("5157828", 1400),
+  ballroomAlt: pexels("30311728", 1600),
+  terraceEvent: pexels("35693943", 1600),
+  diningCity: pexels("29983421", 1600),
+};
